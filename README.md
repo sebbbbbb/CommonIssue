@@ -1,5 +1,6 @@
 # CommonIssue
 
+## UIKit
 ### Navigation Controller
 #### Changer la couleur de la status bar
 * Regarder dans le **.plist** ou autre part que la propriété _UIStatusBarStyleLightContent_ est pas utilisé
@@ -10,3 +11,7 @@
 ``` Swift
 self.navigationItem.titleView = UIImageView(...)
 ```
+### UITableView
+
+#### Cellules superposées
+* Ne surtout pas appeler dequeuReusableCell deux fois, sinon la cellule sera instancié même si le résultat n'est pas utilisé.
