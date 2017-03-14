@@ -11,3 +11,10 @@ La méthode suivant n'est pas appelée:
  Bien implémenter les deux protocoles:
  * UICollectionViewDelegate
  * UICollectionViewDelegateFlowLayout
+
+### 
+
+Collection View mal redimensionnée mais cellules avec la bonne taille
+
+Solution
+Désactiver les contraintes
