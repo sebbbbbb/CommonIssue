@@ -25,3 +25,8 @@ Désactiver les contraintes
 Solution :
 * Si la cellule dispose de state pour afficher son contenu (ex: vue à cacher) bien penser à le réinitialiser à chaque fois
 pour ne pas avoir une cellule mal recyclée
+
+### Ma Collection View rame à mort quand je scroll plusieurs fois
+
+Solution : 
+* Si on y ajoute une cellule depuis un nib, vérifier que la vue n'est pas déja contenue dedans sinon elle va s'ajouter add vitam eternam
