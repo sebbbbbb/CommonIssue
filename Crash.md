@@ -11,3 +11,7 @@
 ##### Crash sans raison après avoir déplacé des fichiers (Xcode9)
 
 * Regarde si Xcode n'a pas virer la target membership des fichiers déplacés
+
+#### Sans raison
+
+* Si c'est une vue qui est chargé, regarder si tous les IBOutlet sont connectés
