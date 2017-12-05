@@ -30,3 +30,7 @@ pour ne pas avoir une cellule mal recyclée
 
 Solution : 
 * Si on y ajoute une cellule depuis un nib, vérifier que la vue n'est pas déja contenue dedans sinon elle va s'ajouter add vitam eternam
+
+### Soucis de performance, ex: result AM
+
+* Possiblité de désactiver le recyclage en mettant des index unique pour les identifiants
