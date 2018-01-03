@@ -1,0 +1,5 @@
+# Charles
+
+### Ça ne marche pas sur mon simu 
+
+Installer le certificat root sur le simu : Help > SSL Proxying > Install Charles Root Certificate in iOS Simulators
