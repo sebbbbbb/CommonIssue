@@ -9,3 +9,9 @@ Installer le certificat root sur le simu : Help > SSL Proxying > Install Charles
 ### Je peux plus push (Permission denied (publickey)
 
 Faire un gros reset sur les clés ssh et tout regenerer
+
+# AppStore
+
+### Je n'arrive pas à ouvrir une app sur le store 
+
+Tester avec un vrai device et non pas un simu
