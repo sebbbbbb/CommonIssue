@@ -10,3 +10,9 @@ Erreur lors de l'export de l'archive :
 Solution :
   * Voir du cote de cocoapods
   * Regarder si un *xconfig* n'override pas les pods
+
+
+"Error Domain=IDEFoundationErrorDomain Code=1 "exportOptionsPlist error for key 'method': expected one of {}, but found enterprise" UserInfo={NSLocalizedDescription=exportOptionsPlist error for key 'method': expected one of {}, but found enterprise}"
+
+Solution :
+  * Checker la version de cocoapod
