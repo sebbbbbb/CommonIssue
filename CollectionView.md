@@ -34,3 +34,11 @@ Solution :
 ### Soucis de performance, ex: result AM
 
 * Possiblité de désactiver le recyclage en mettant des index unique pour les identifiants
+
+### Le layout casse sans raison
+
+* Bien tester en enlevant toutes les opérations sur la collection view, eg: performBatchUpdates. (soucis rencontré sur Ludo) ...
+
+
+
+
