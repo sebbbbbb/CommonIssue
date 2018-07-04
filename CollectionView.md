@@ -39,6 +39,9 @@ Solution :
 
 * Bien tester en enlevant toutes les opérations sur la collection view, eg: performBatchUpdates. (soucis rencontré sur Ludo) ...
 
+### Crash quand je recupère ma cellule alors qu'elle est bien register !
+
+* Regarder si le .xib utilise bien la bonne classe et non pas la classe de base.
 
 
 
