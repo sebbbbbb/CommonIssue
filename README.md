@@ -15,3 +15,7 @@ self.navigationItem.titleView = UIImageView(...)
 
 #### Cellules superposées
 * Ne surtout pas appeler dequeuReusableCell deux fois, sinon la cellule sera instancié même si le résultat n'est pas utilisé.
+
+### Rotation
+#### Layout tout cassé quand je fais une rotation alors que l'écran est pas visible (Ludo ...)
+* Simplifier au maximum le layout pour que le moteur de rendu puisse se dépatouiller tout seul (ex: ne pas avoir des élement lourd imbriqué, type collectionView dans scrollView)
