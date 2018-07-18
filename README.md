@@ -11,6 +11,10 @@
 ``` Swift
 self.navigationItem.titleView = UIImageView(...)
 ```
+
+#### Une cellule est vided alors que j'ai tout bien fait / Bug avec une collection view
+* Bien regarder si on a pas crée une simple UIView a la place du composant qui va bien (cf: Gunjin)
+
 ### UITableView
 
 #### Cellules superposées
