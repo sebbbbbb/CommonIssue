@@ -8,7 +8,7 @@ Solution :
 Utiliser un middleware qui injecte le header :
 ⚠️ L'ordre des insctructions comptes, le middleware doit petre crée avant le lancement du serveur
 
-```java-script
+```javascript
 // Add headers
 app.use(function (req, res, next) {
 
