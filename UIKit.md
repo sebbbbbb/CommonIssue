@@ -29,3 +29,8 @@ gradient.endPoint = CGPoint(x: 0, y: 1)
 gradient.frame = self.viewGradient.bounds
 self.viewGradient.layer.insertSublayer(gradient, at: 0)
 ```
+
+#### Issue
+**Warning: Attempt to present <UIAlertController: 0x7fc0e1814600> whose view is not in the window hierarchy!**
+
+Ne pas ajouter une alert dans le viewDidLoad ... la hiérachie de vue n'est pas encore finalisée
