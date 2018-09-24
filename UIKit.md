@@ -29,6 +29,13 @@ gradient.endPoint = CGPoint(x: 0, y: 1)
 gradient.frame = self.viewGradient.bounds
 self.viewGradient.layer.insertSublayer(gradient, at: 0)
 ```
+#### Changer la couleur de fond d'une image
+
+```swift
+// https://web.archive.org/web/20150325085832/http://www.captechconsulting.com/blog/steven-beyers/ios-7-tutorial-series-tint-color-and-easy-app-theming
+self.imageBackground.image = Asset.bulles.image.withRenderingMode(.alwaysTemplate) 
+self.imageBackground.tintColor = hero.heroColor?.hexColor    
+```
 
 #### Issue
 **Warning: Attempt to present <UIAlertController: 0x7fc0e1814600> whose view is not in the window hierarchy!**
