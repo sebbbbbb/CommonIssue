@@ -1,6 +1,6 @@
 # TVOS
 
-### Quand je change de vue je n'ai plus de focus
+### Quand je change de vue je n'ai plus de focus / le focus ne semble pas marcher
 ex: Player qui se superpose avec un overlay
 
 Solution :
