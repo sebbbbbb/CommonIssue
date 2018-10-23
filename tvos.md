@@ -8,3 +8,5 @@ Penser à faire une mise à jour du focus pour que le système mette à jour son
 ```swift
 self.setNeedsFocusUpdate()
 ```
+### Liens sympas 
+[Doc Focus Engine](https://www.bignerdranch.com/blog/10-tips-for-mastering-the-focus-engine-on-tvos/)
