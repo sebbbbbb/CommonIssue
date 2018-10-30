@@ -8,5 +8,10 @@ Penser à faire une mise à jour du focus pour que le système mette à jour son
 ```swift
 self.setNeedsFocusUpdate()
 ```
+### Je n'arrive pas a jouer de son, pourtant ça marche sur mon simu 
+
+Il n'y a pas de local storage sur l'apple TV, tout le contenu stocké peut être supprimé au démarage.
+Si on stock des données la clé de directory .documentDirectory ne va pas marcher il faut utiliser .cachesDirectory.
+
 ### Liens sympas 
 [Doc Focus Engine](https://www.bignerdranch.com/blog/10-tips-for-mastering-the-focus-engine-on-tvos/)
