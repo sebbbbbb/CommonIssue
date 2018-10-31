@@ -16,3 +16,10 @@ Solution :
 
 Solution :
   * Checker la version de cocoapod
+
+## Application loader qui râle
+
+*ERROR ITMS-90596: “Invalid Bundle. The asset catalog at Payload”*
+
+Solution :
+ * Regarder si on utilise bien la dernière version d'Application Loader, elle diffère entre les versions d'Xcode
