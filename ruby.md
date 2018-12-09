@@ -6,3 +6,7 @@
 ```shell
 rake db:reset
 ```
+### Supprimer la BDD
+```shell
+rake db:drop
+```
