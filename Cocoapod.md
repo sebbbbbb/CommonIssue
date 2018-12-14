@@ -12,6 +12,9 @@ Si on spécifie juste le fichier le load ira le cherche dans le répertoire cour
 ## Auto-Linking framework not found
 * Regarder si la target est bien inclue dans le podfile (core ...)
 
+## Gros crash lors d'un pod install
+* Si cela fait suite à un merge foireux regarder la tronche du .pxproj si il est corrompu le pod install peut échouer à cause de ça
+
 ### Pod custom
 * Si une lib n'est pas compatible Swift, essayer de pécho un framework et de l'intégrer tel quel (pas ouf ...)
 * Quand on intègre une lib externe il faut utiliser l'instruction *vendored_frameworks*
