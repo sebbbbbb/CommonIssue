@@ -41,3 +41,11 @@ self.imageBackground.tintColor = hero.heroColor?.hexColor
 **Warning: Attempt to present <UIAlertController: 0x7fc0e1814600> whose view is not in the window hierarchy!**
 
 Ne pas ajouter une alert dans le viewDidLoad ... la hiérachie de vue n'est pas encore finalisée
+
+##### Transition qui se fait mal avec une transition custom
+
+Dans la méthode 
+```swift
+func animateTransition(using transitionContext: UIViewControllerContextTransitioning)
+```
+Si on fait un early return sans avoir gérer la transition rien ne sera fait et l'app sera dans un état batard (ZZ) : le VC sera pushé mais la view hierarchy sera niquée.
