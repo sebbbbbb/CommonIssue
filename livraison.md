@@ -23,3 +23,8 @@ Solution :
 
 Solution :
  * Regarder si on utilise bien la dernière version d'Application Loader, elle diffère entre les versions d'Xcode
+
+## TestFlight
+
+### Redeem code paumé
+* Si user interne, le supprimer du groupe et le rajouter pour pouvoir ressoumettre le code par mail ...
