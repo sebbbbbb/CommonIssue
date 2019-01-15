@@ -44,4 +44,5 @@ Solution :
 * Regarder si le .xib utilise bien la bonne classe et non pas la classe de base.
 
 
-
+### CellForItem appelé tout le temp
+* Eviter d'avoir une collectionView embed dans une scrollView ...
