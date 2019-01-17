@@ -15,3 +15,7 @@
 #### Sans raison
 
 * Si c'est une vue qui est chargé, regarder si tous les IBOutlet sont connectés
+
+#### Je n'arrive pas a checker mes crash sur fabrics
+* Uploader les dsym de l'archive sur fabrics
+* Si possible actier le bitcode pour avoir accès aux .dsym depuis itunes 
