@@ -25,3 +25,6 @@ pre_install do |installer|
 	Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
 end
 
+
+### Erreur genre “non-modular header inside framework module” sur un Pod objc
+* Inclure son umbrella header dans le bridging header
