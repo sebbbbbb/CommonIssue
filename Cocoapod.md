@@ -28,3 +28,7 @@ end
 
 ### Erreur genre “non-modular header inside framework module” sur un Pod objc
 * Inclure son umbrella header dans le bridging header
+
+
+### Specs satisfying the `CocoaLumberjack (~> 2.0)` dependency were found, but they required a higher minimum deployment target.
+* Si des pods utilisent ma même lib mais avec des versions différentes cela peut conduire à ce genre de bug un peu chelou ...
