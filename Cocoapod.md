@@ -32,3 +32,11 @@ end
 
 ### Specs satisfying the `CocoaLumberjack (~> 2.0)` dependency were found, but they required a higher minimum deployment target.
 * Si des pods utilisent ma même lib mais avec des versions différentes cela peut conduire à ce genre de bug un peu chelou ...
+
+### Erreur du type 
+[!] The following Swift pods cannot yet be integrated as static libraries:
+
+The Swift pod `JeunesseChromecast` depends upon `Protobuf`, which do not define modules. To opt into those targets generating module maps (which is necessary to import them from Swift when building as static libraries), you may set `use_modular_headers!` globally in your Podfile, or specify `:modular_headers => true` for particular dependencies.
+
+Solution :
+* Utiliser l'instruction *use_modular_headers!* si `:modular_headers => true` ne marche pas
