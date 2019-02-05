@@ -23,3 +23,7 @@ self.navigationItem.titleView = UIImageView(...)
 ### Rotation
 #### Layout tout cassé quand je fais une rotation alors que l'écran est pas visible (Ludo ...)
 * Simplifier au maximum le layout pour que le moteur de rendu puisse se dépatouiller tout seul (ex: ne pas avoir des élement lourd imbriqué, type collectionView dans scrollView)
+
+#### J'arrive pas à lock un view controller !
+* Si le viewcontroller est embed (dans un navigation controller, dans une tabar ...) la gestion du lock doit être fait dans le conteneur
+* Si des gestions de passage full-screen sont faites au changement d'orientation (ex: Player Ludo) attention, si on se base sur la notification *UIDeviceOrientationDidChange* cette méthode sera appelé même si la rotation est locké.
