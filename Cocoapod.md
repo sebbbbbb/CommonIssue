@@ -11,6 +11,11 @@ Si on spécifie juste le fichier le load ira le cherche dans le répertoire cour
 
 ## Auto-Linking framework not found
 * Regarder si la target est bien inclue dans le podfile (core ...)
+* Si c'est un projet de type App regarder si le podfile a la tête suivante (vu que la target de test host la main target on doit imbriqué la target)
+target 'kids' do
+  target 'kidsTests' do
+  end
+end
 
 ## Gros crash lors d'un pod install
 * Si cela fait suite à un merge foireux regarder la tronche du .pxproj si il est corrompu le pod install peut échouer à cause de ça
