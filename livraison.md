@@ -24,6 +24,12 @@ Solution :
 Solution :
  * Regarder si on utilise bien la dernière version d'Application Loader, elle diffère entre les versions d'Xcode
 
+*ERROR ITMS-90205: "Invalid Bundle. contains disallowed nested bundles*
+
+Solution : (Soucis rencontré sur Ludo)
+  * Faire une archive via Xcode et checker son contenu
+  * S'assurer que l'extension de l'app ( de l'archive) ne contient pas de framework, c'est l'app container qui doit la contenir
+
 ## TestFlight
 
 ### Redeem code paumé
