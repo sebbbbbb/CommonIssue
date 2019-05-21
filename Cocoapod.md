@@ -45,3 +45,7 @@ The Swift pod `JeunesseChromecast` depends upon `Protobuf`, which do not define 
 
 Solution :
 * Utiliser l'instruction *use_modular_headers!* si `:modular_headers => true` ne marche pas
+
+### Pod qui ne se met pas à jour alors que je fais un pod update !
+* Si c'est une version béta (genre 2.0.0-2) il faut bien préciser la version dans le podfile pour qu'elle soit prise en compte
+
