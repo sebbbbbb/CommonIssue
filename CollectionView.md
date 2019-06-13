@@ -46,3 +46,10 @@ Solution :
 
 ### CellForItem appelé tout le temp
 * Eviter d'avoir une collectionView embed dans une scrollView ...
+
+### Ma collection view ne va pas tout en haut sur un iPhone X !
+* Utiliser la propriété suivante :
+```swift
+collectionView.contentInsetAdjustmentBehavior = .never
+```
+
