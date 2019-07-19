@@ -8,6 +8,10 @@
 
 * Regarder si on ajoute pas un view controller dans lui même (idp ...)
 
+### Crash with a constraint which can be installed or nord
+* If you wanted to uninstall a constraint and reinstal it later make sure to don't make it weak otherwise it will be deallocated
+
+
 ##### Crash sans raison après avoir déplacé des fichiers (Xcode9)
 
 * Regarde si Xcode n'a pas virer la target membership des fichiers déplacés
