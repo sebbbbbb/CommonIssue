@@ -19,6 +19,7 @@
 #### Sans raison
 
 * Si c'est une vue qui est chargé, regarder si tous les IBOutlet sont connectés
+* Si on instancie un view controller regarder qu'on charge bien le bon XIB ... 
 
 #### Je n'arrive pas a checker mes crash sur fabrics
 * Uploader les dsym de l'archive sur fabrics
