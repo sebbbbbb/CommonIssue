@@ -15,3 +15,5 @@ Si on stock des données la clé de directory .documentDirectory ne va pas march
 
 ### Liens sympas 
 [Doc Focus Engine](https://www.bignerdranch.com/blog/10-tips-for-mastering-the-focus-engine-on-tvos/)
+
+[Doc Focus Engine II](https://medium.com/airbnb-engineering/mastering-the-tvos-focus-engine-f8a13b371083)
