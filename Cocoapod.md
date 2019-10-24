@@ -49,3 +49,5 @@ Solution :
 ### Pod qui ne se met pas à jour alors que je fais un pod update !
 * Si c'est une version béta (genre 2.0.0-2) il faut bien préciser la version dans le podfile pour qu'elle soit prise en compte
 
+### Broken project (can not load file xyz.xconfig)
+* Since to be caused by different pod version if it happened try to revert to a working pbxproj ...
