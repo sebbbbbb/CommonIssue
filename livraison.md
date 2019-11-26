@@ -38,5 +38,7 @@ Solution : (Soucis rencontré sur Ludo)
 
 ### App tej a cause de Missing Purpose String in Info.plist
 * Avoir le nom du framework qui nécessite cette autorisation
-* Utiliser la fonction suivante Missing Purpose String in Info.plist (dans le *.app) find *.framework ! -name '*CodeResources*' -type f ! -name "*.*" -exec nm -o -- {} + | grep <#MonFrameWork#>
-
+* Utiliser la fonction suivante Missing Purpose String in Info.plist (dans le *.app) 
+```shell
+find *.framework ! -name '*CodeResources*' -type f ! -name "*.*" -exec nm -o -- {} + | grep <#MonFrameWork#>
+```
