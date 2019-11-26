@@ -34,3 +34,9 @@ Solution : (Soucis rencontré sur Ludo)
 
 ### Redeem code paumé
 * Si user interne, le supprimer du groupe et le rajouter pour pouvoir ressoumettre le code par mail ...
+
+
+### App tej a cause de Missing Purpose String in Info.plist
+* Avoir le nom du framework qui nécessite cette autorisation
+* Utiliser la fonction suivante Missing Purpose String in Info.plist (dans le *.app) find *.framework ! -name '*CodeResources*' -type f ! -name "*.*" -exec nm -o -- {} + | grep <#MonFrameWork#>
+
