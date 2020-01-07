@@ -49,3 +49,9 @@ Dans la méthode
 func animateTransition(using transitionContext: UIViewControllerContextTransitioning)
 ```
 Si on fait un early return sans avoir gérer la transition rien ne sera fait et l'app sera dans un état batard (ZZ) : le VC sera pushé mais la view hierarchy sera niquée.
+
+
+##### Label color won't change programmaticaly on <iOS13
+
+Make sure that label color is not setted in .xib otherwise it won't work.
+
