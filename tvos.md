@@ -13,6 +13,19 @@ self.setNeedsFocusUpdate()
 Il n'y a pas de local storage sur l'apple TV, tout le contenu stocké peut être supprimé au démarage.
 Si on stock des données la clé de directory .documentDirectory ne va pas marcher il faut utiliser .cachesDirectory.
 
+### TextView won't scroll
+
+Solution :
+```swift
+  textView.isUserInteractionEnabled = true
+  textView.isScrollEnabled = true
+  textView.showsVerticalScrollIndicator = true
+  textView.bounces = true
+  textView.panGestureRecognizer.allowedTouchTypes = [NSNumber(value: UITouch.TouchType.indirect.rawValue)]
+```
+
+
+
 ### Liens sympas 
 [Doc Focus Engine](https://www.bignerdranch.com/blog/10-tips-for-mastering-the-focus-engine-on-tvos/)
 
