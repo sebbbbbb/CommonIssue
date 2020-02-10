@@ -12,6 +12,9 @@
 self.navigationItem.titleView = UIImageView(...)
 ```
 
+#### In a multitabar context, my left bar button item is only showed on one of each tab !
+* I have this bug in ZZ app ... : make sur your assign a specfic instance to UIBarButtonItem of navigationItem and note the same. Otherwise only one will be showed ...
+
 #### Une cellule est vided alors que j'ai tout bien fait / Bug avec une collection view
 * Bien regarder si on a pas crée une simple UIView a la place du composant qui va bien (cf: Gunjin)
 
