@@ -21,3 +21,6 @@ Utiliser la commande :
 ```shell
 codesign -d --entitlements - /Applications/Whatever.app/
 ```
+
+### Extraire un IPA
+https://emm.how/t/downloading-ipa-file-from-app-store-onto-a-mac/525
