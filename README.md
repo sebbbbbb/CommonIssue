@@ -30,3 +30,13 @@ self.navigationItem.titleView = UIImageView(...)
 #### J'arrive pas à lock un view controller !
 * Si le viewcontroller est embed (dans un navigation controller, dans une tabar ...) la gestion du lock doit être fait dans le conteneur
 * Si des gestions de passage full-screen sont faites au changement d'orientation (ex: Player Ludo) attention, si on se base sur la notification *UIDeviceOrientationDidChange* cette méthode sera appelé même si la rotation est locké.
+
+
+### Others
+
+#### Some component have english wording
+* Force *CFBundleDevelopmentRegion* in .plist key to desired language
+
+
+
+
