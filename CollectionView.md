@@ -53,3 +53,17 @@ Solution :
 collectionView.contentInsetAdjustmentBehavior = .never
 ```
 
+## Custom layout
+* Is done by overriding : UICollectionViewLayout
+* Be carefull with 
+```swift
+override func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes?
+```
+Since it's called many times.
+
+### Usefull links :
+https://www.objc.io/issues/3-views/collection-view-layouts/
+https://developer.apple.com/documentation/uikit/views_and_controls/collection_views/layouts/customizing_collection_view_layouts
+
+
+
