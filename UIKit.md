@@ -55,3 +55,7 @@ Si on fait un early return sans avoir gérer la transition rien ne sera fait et 
 
 Make sure that label color is not setted in .xib otherwise it won't work.
 
+### UINavigation bar
+
+* Issue: background color has an grey effect with `UINavigationBarAppearance`
+  Make sure to set a background color explicitely to ovveride default one
