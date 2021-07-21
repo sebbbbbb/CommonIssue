@@ -51,3 +51,8 @@ Solution :
 
 ### Broken project (can not load file xyz.xconfig)
 * Since to be caused by different pod version if it happened try to revert to a working pbxproj ...
+
+
+### When using .xib inside a Pod
+* If you are loading a view controller .xib inside a Pod make sure to use resourcesBundle and not default one, otherwise xib won't be loaded in an app
+* Make sur .xib is included in ressourceBundle target
